@@ -1,8 +1,44 @@
 html { 
-  background: url(img/red_line_background.jpg)
-  no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    font-family: Arial;
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: url(img/bkgrnd.jpg)
+    no-repeat center center fixed;     
+}
+
+nav {
+    text-align: center;
+}
+
+a:hover {
+    background-color: #0099cc;
+}
+
+a {
+    border-radius: 10px;
+}
+
+li a {
+	display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #fff; 
+	background-color: #333;
+	padding:0 30px
+}
+
+ul {
+	margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+	list-style-type: none;
+	height: 100%;
 }
