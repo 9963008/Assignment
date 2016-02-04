@@ -1,7 +1,6 @@
 html { 
     font-family: Arial;
     font-size: 20px;
-    -webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -9,36 +8,15 @@ body {
     no-repeat center center fixed;     
 }
 
-nav {
-    text-align: center;
+
+
+footer {
+width: 100%;
+position: absolute;
+bottom: 0px; 
+left: 0px; 
+text-align: center; 
+background: #FF8800;
+font-size: 15px;
 }
 
-a:hover {
-    background-color: #0099cc;
-}
-
-a {
-    border-radius: 10px;
-}
-
-li a {
-	display: block;
-    text-decoration: none;
-    text-align: center;
-    line-height: 50px;
-    color: #fff; 
-	background-color: #333;
-	padding:0 30px
-}
-
-ul {
-	margin-left: 10px;
-    margin-right: 10px;
-    text-align: center;
-}
-
-li {
-    display: inline-block;
-	list-style-type: none;
-	height: 100%;
-}

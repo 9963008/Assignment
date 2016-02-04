@@ -1,0 +1,35 @@
+nav {
+    text-align: center;
+}
+
+li a:hover{
+    background-color: #0099cc;     
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #fff; 
+    background-color: #333;
+    padding:0 30px
+    
+}
+
+a {
+    border-radius: 10px;
+}
+
+ul {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+li {
+    display: inline-block;
+	list-style-type: none;
+	height: 100%;
+}
