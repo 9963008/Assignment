@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background: url(img/bkgrnd.jpg)
+    background: url(../img/bkgrnd.jpg)
     no-repeat center center fixed;     
 }
 
@@ -19,4 +19,3 @@ text-align: center;
 background: #FF8800;
 font-size: 15px;
 }
-
