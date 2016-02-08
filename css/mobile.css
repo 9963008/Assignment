@@ -1,0 +1,58 @@
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 100px) 
+  and (max-device-width: 700px)
+  and (-webkit-min-device-pixel-ratio: 1)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (-webkit-min-device-pixel-ratio: 3)  
+   {
+        background-image: url(../Assignment/img/bg.jpg) no-repeat fixed;
+   }
+   
+html {
+    -webkit-text-size-adjust: auto;
+}
+
+header{
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    font-size: 40px;
+    position: center;
+    padding-right: 40px;
+}
+
+li a:hover{
+    background-color: #0099cc;     
+}
+
+li a {
+    line-height: 60px;
+    color: #fff; 
+    background-color: #333;
+}   
+
+a {
+    border-radius: 10px;
+}
+
+li {
+    display: list-item;
+}
+
+a.selected{
+    border-radius: 10px;  
+    background-color: #0099cc;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px; 
+    left: 0px; 
+    text-align: center; 
+    background: #FF8800;
+    font-size: 22px;
+}
