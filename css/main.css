@@ -15,6 +15,10 @@ img.logo {
     width: 500px;
     height: 125px;
     }
+    
+    div.img1{
+       text-align: center; 
+    }
 
 body {
     font-family: Arial;
@@ -29,8 +33,4 @@ footer {
     text-align: center; 
     background: #FF8800;
     font-size: 15px;
-}
-
-table {
-        display: inline-table;
 }

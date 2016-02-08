@@ -15,6 +15,10 @@ img.logo {
         height: 140px;
 }
 
+div.img1{
+        text-align: center;
+}
+
 nav {
     text-align: center;
     -webkit-text-size-adjust: auto;
@@ -47,7 +51,7 @@ a.selected{
 
 footer {
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0px; 
     left: 0px; 
     text-align: center; 
