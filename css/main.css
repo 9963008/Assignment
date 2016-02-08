@@ -1,6 +1,7 @@
+@media screen and (min-width: 701px) {}
+
 html { 
-    background: url(../img/bg.jpg)
-    no-repeat center fixed;   
+    background: url(../img/bg.jpg) no-repeat center fixed;   
     background-attachment: fixed;
     background-size: cover;
 }
@@ -28,4 +29,8 @@ footer {
     text-align: center; 
     background: #FF8800;
     font-size: 15px;
+}
+
+table {
+        display: inline-table;
 }
